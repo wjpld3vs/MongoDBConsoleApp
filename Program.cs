@@ -11,7 +11,7 @@ namespace MongoDBConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.Title = "MONGO APP";
+            Console.Title = "MONGO APP - mongo db";
 
             var randomGenerator = RandomizerFactory.GetRandomizer(new FieldOptionsFirstName());
             var randomNumGen = RandomizerFactory.GetRandomizer(new FieldOptionsInteger { Min = 1, Max = 1000 });
